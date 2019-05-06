@@ -1,0 +1,39 @@
+:root {
+  --mainMaroon:#FF66B2;
+  --mainWhite:#FFFFFF;
+  --mainBlack:#202020;
+  --mainCyan:#CCFFFF;
+  --lightMaroon:#fadadd;
+}
+body{
+  font-family:'Lobster', cursive !important;
+  background:var(--backColor) !important;
+  color:var(--fontChange) !important;
+}
+.text-title{
+  font-family: 'Mrs Sheppards', cursive !important;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+}
+
+.text-maroon{
+  color:var(--mainMaroon);
+}
+
+.flexbox{
+  padding:1rem 4rem 1rem 5rem;
+  margin:0.5rem;
+  border-radius: 0.5rem;
+  background:var(--mainMaroon);
+  font-size:1.4rem;
+  text-align: center;
+  
+}
+.flexbox a{
+  color:var(--mainCyan);
+  text-decoration: none;
+}
+.flexbox a :hover{
+  color:var(--mainBlack)
+}
+
